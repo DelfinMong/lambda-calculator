@@ -1,12 +1,13 @@
 .container {
     background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
 .display {
+    margin: 0 auto;
     margin-top: 25px;
     height: 100px;
     width: 450px;
@@ -19,4 +20,55 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+  
+  .char, .numbers, .special{
+      background: rgb(49, 93, 129);
+      border-radius: 150%;
+      width: 50px;
+      height: 50px;
+      margin: 5%;
+      color: white;
+      border: 2px groove white;
+    } 
+
+
+
+  
+  .char{
+   background: dodgerblue;
+   margin: 8%;
+  }
+
+  .numbers{
+   background: steelblue;
+  }
+
+  .char-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 29%;
+    margin-top: 11%;
+  }
+
+  .numbers-container {
+    margin: 3%;
+    margin-left: 5%;
+  }
+
+  .special-container {
+   margin-left: 2.5%;
+  }
+
+  
+
+  .others {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .other1 {
+    width: 50%;
+    margin-top: -20.5%;
   }
